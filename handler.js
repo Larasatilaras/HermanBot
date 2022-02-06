@@ -230,7 +230,7 @@ module.exports = {
             age: -1,
             regTime: -1,
             role: 'Newbie ㋡', 
-            autolevelup: true,
+            autolevelup: false,
         }
 
         let chat = global.DATABASE._data.chats[m.chat]
@@ -256,7 +256,7 @@ module.exports = {
           sDemote: '',
           delete: false,
           antiLink: false,
-          antiToxic: false,
+          antiToxic: true,
         }
       } catch (e) {
         console.error(e)
