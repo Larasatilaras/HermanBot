@@ -114,7 +114,7 @@ const freply = {key:{ fromMe:false, participant: `0@s.whatsapp.net`, ...(m.chat 
 
             },
 
-            "businessOwnerJid": "6283146208804@s.whatsapp.net"}}}    
+            "businessOwnerJid": "6285759662798@s.whatsapp.net"}}}    
 
 let package = JSON.parse(fs.readFileSync(path.join(__dirname, '../package.json')))
 
@@ -273,7 +273,7 @@ let tags = {
     conn.menu = conn.menu ? conn.menu : {}
 
     let before = conn.menu.before || `
-Halo %name 👋 Saya *Pangeran Botz* 
+Halo %name 👋 Saya *Laras Botz* 
 ╭─◩Info Bot
 │ Bot Name : *${conn.getName(conn.user.jid)}*
 │ Mention : @${m.sender.replace(/@.+/, '')}
